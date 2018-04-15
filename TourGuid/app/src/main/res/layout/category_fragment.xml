@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/category"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/attractions_image_view"
+                style="@style/main_page_image_style"
+                android:contentDescription="@string/attractions_imageview"
+                android:src="@drawable/attractions" />
+
+            <TextView
+                style="@style/main_page_text_style"
+                android:layout_alignBottom="@id/attractions_image_view"
+                android:text="@string/attraction" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/restaurants_image_view"
+                style="@style/main_page_image_style"
+                android:contentDescription="@string/attractions_imageview"
+                android:src="@drawable/food" />
+
+            <TextView
+                style="@style/main_page_text_style"
+                android:layout_alignBottom="@id/restaurants_image_view"
+                android:text="@string/restaurants" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tea_image_view"
+                style="@style/main_page_image_style"
+                android:contentDescription="@string/attractions_imageview"
+                android:src="@drawable/tea" />
+
+            <TextView
+                style="@style/main_page_text_style"
+                android:layout_alignBottom="@id/tea_image_view"
+                android:text="@string/coffee_shops" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hotel_image_view"
+                style="@style/main_page_image_style"
+                android:contentDescription="@string/attractions_imageview"
+                android:src="@drawable/hotel" />
+
+            <TextView
+                style="@style/main_page_text_style"
+                android:layout_alignBottom="@id/hotel_image_view"
+                android:text="@string/hotels" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

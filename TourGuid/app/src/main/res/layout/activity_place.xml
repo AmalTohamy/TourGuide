@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="tohamy.amal.tourguid.PlaceActivity">
+
+    <ImageView
+        android:id="@+id/attractions_image_view"
+        style="@style/place_image_style"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/attractions_imageview"
+        android:src="@drawable/attractions" />
+
+    <TextView
+        android:id="@+id/place_text_view"
+        style="@style/place_text_style"
+        android:layout_alignBottom="@id/attractions_image_view"
+        android:text="@string/attraction" />
+
+</RelativeLayout>

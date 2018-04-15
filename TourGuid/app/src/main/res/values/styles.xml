@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/myActionBar</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Custome action bar -->
+    <style name="myActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="main_page_text_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingBottom">@dimen/text_padding_bottom</item>
+        <item name="android:textSize">@dimen/main_page_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/alike</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="place_text_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingBottom">@dimen/text_padding_bottom</item>
+        <item name="android:textSize">@dimen/place_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/alike</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="main_page_image_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/image_view_margin_start_end</item>
+        <item name="android:layout_marginEnd">@dimen/image_view_margin_start_end</item>
+        <item name="android:layout_marginTop">@dimen/image_view_margin_start_end</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="place_image_style">
+        <item name="android:layout_height">@dimen/place_image_height</item>
+        <item name="android:layout_width">@dimen/place_image_width</item>
+        <item name="android:scaleType">centerCrop</item>
+
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="info_text_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/info_text_size</item>
+        <item name="android:padding">@dimen/info_text_padding</item>
+        <item name="android:fontFamily">@font/alike</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing</item>
+    </style>
+
+    <style name="discover_cairo_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/nav_header_vertical_spacing</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/discover_cairo_text_size</item>
+    </style>
+</resources>
